@@ -19,13 +19,13 @@ jobs:
           dotnet-version: 10.0
 
       - name: Restaurar dependencias
-        run: dotnet restore
+        run: dotnet restore ./StockManager.API/StockManager.sln
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build ./StockManager.API/StockManager.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish -c Release -o publish
+        run: dotnet publish ./StockManager.API/StockManager.API.csproj -c Release -o publish
 
       - name: Copiar al servidor (SCP)
         uses: appleboy/scp-action@v0.1.7
