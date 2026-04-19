@@ -19,10 +19,10 @@ jobs:
           dotnet-version: 10.0
 
       - name: Restaurar dependencias
-        run: dotnet restore ./StockManager.API/StockManager.sln
+        run: dotnet restore ./StockManager.API/StockManager.API.slnx
 
       - name: Build
-        run: dotnet build ./StockManager.API/StockManager.sln --configuration Release --no-restore
+        run: dotnet build ./StockManager.API/StockManager.API.slnx --configuration Release --no-restore
 
       - name: Publish
         run: dotnet publish ./StockManager.API/StockManager.API.csproj -c Release -o publish
