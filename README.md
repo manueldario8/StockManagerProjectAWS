@@ -1,5 +1,5 @@
 API REST construida con ASP.NET Core orientada a la gestión de un sistema de stock y órdenes.
-Incluye autenticación de usuarios, manejo de productos y procesamiento de órdenes mediante operaciones CRUD.
+Incluye autenticación de usuarios, manejo de productos, procesamiento de órdenes mediante operaciones CRUD y conexión a terceros (Cloudinary storage).
 
 La aplicación está desplegada en AWS utilizando una instancia EC2 y conectada a una base de datos en Amazon RDS (SQL Server), con configuración de networking previa (security groups, reglas de acceso y conectividad entre servicios).
 
