@@ -41,7 +41,7 @@ namespace StockManager.API.Controllers.CatalogControllers
             return Ok(updated);
         }
 
-        [HttpPut("toggle/{id:int}")]
+        [HttpPatch("toggle/{id:int}")]
         public async Task<IActionResult> ToggleStatusActived(int id)
         {
             await _providerService.ToggleStatusProviderAsync(id);

@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\",
+  "WorkspaceRootPath": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stockmanager\\stockmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\services\\catalogservices\\providerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:services\\catalogservices\\providerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stockmanager\\stockmanager.api\\controllers\\catalogcontrollers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\entities\\dtos\\catalogdtos\\providerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:entities\\dtos\\catalogdtos\\providerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\entities\\dtos\\catalogdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:entities\\dtos\\catalogdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\controllers\\catalogcontrollers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:controllers\\catalogcontrollers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stockmanager\\stockmanager.api\\entities\\models\\catalog\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:entities\\models\\catalog\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stockmanager\\stockmanager.api\\services\\catalogservices\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:services\\catalogservices\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stockmanager\\stockmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\interfaces\\cataloginterfaces\\iproviderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:interfaces\\cataloginterfaces\\iproviderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProviderController.cs",
-              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\Controllers\\CatalogControllers\\ProviderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CatalogControllers\\ProviderController.cs",
-              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\Controllers\\CatalogControllers\\ProviderController.cs",
-              "RelativeToolTip": "Controllers\\CatalogControllers\\ProviderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T01:20:37.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\Entities\\Models\\Catalog\\Product.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Catalog\\Product.cs",
-              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\Entities\\Models\\Catalog\\Product.cs",
-              "RelativeToolTip": "Entities\\Models\\Catalog\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T00:22:12.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ImageService.cs",
-              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\Services\\CatalogServices\\ImageService.cs",
-              "RelativeDocumentMoniker": "Services\\CatalogServices\\ImageService.cs",
-              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\Services\\CatalogServices\\ImageService.cs",
-              "RelativeToolTip": "Services\\CatalogServices\\ImageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T23:18:13.337Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-12T22:47:14.394Z",
+              "Title": "ProviderService.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Services\\CatalogServices\\ProviderService.cs",
+              "RelativeDocumentMoniker": "Services\\CatalogServices\\ProviderService.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Services\\CatalogServices\\ProviderService.cs",
+              "RelativeToolTip": "Services\\CatalogServices\\ProviderService.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T03:01:21.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwB4AAAAuAAAAAAAAAA==",
+              "Title": "IProviderService.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Interfaces\\CatalogInterfaces\\IProviderService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\CatalogInterfaces\\IProviderService.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Interfaces\\CatalogInterfaces\\IProviderService.cs",
+              "RelativeToolTip": "Interfaces\\CatalogInterfaces\\IProviderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T00:55:44.598Z"
+              "WhenOpened": "2026-04-19T02:55:08.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProviderController.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Controllers\\CatalogControllers\\ProviderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatalogControllers\\ProviderController.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Controllers\\CatalogControllers\\ProviderController.cs",
+              "RelativeToolTip": "Controllers\\CatalogControllers\\ProviderController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T02:54:45.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Entities\\DTOs\\CatalogDTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CatalogDTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Entities\\DTOs\\CatalogDTOs\\ProductDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CatalogDTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T02:49:24.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProviderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Entities\\DTOs\\CatalogDTOs\\ProviderDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\CatalogDTOs\\ProviderDTO.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Entities\\DTOs\\CatalogDTOs\\ProviderDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\CatalogDTOs\\ProviderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T02:34:59.999Z",
+              "EditorCaption": ""
             }
           ]
         }

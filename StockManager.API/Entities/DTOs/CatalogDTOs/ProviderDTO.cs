@@ -24,6 +24,8 @@
         IEnumerable<GetProductToProviderDto> Products);
 
     public record GetStockByProviderDto(
+        string Name,
+        string Code,
         IEnumerable<GetProductToStockDto> ProductsDto);
 
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\StockManager.API.csproj": {}
+    "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\StockManager.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\StockManager.API.csproj": {
+    "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\StockManager.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\StockManager.API.csproj",
+        "projectUniqueName": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\StockManager.API.csproj",
         "projectName": "StockManager.API",
-        "projectPath": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\StockManager.API.csproj",
+        "projectPath": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\StockManager.API.csproj",
         "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manue\\OneDrive\\Desktop\\StockManager\\StockManager.API\\obj\\",
+        "outputPath": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

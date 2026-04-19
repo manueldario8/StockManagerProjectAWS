@@ -61,6 +61,8 @@ namespace StockManager.API.Services.CatalogServices
                 .IgnoreQueryFilters()
                 .Where(p => p.Id == id)
                 .Select(p => new GetStockByProviderDto(
+                    p.Name,
+                    p.Code,
                     p.Products.Select(d => new GetProductToStockDto(
                         d.ProviderCode,
                         d.ProductCode,

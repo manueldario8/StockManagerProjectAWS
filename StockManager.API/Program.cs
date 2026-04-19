@@ -31,6 +31,23 @@ if (cloudinary != null)
     builder.Services.AddSingleton(cloudinary);
 }
 
+//Adding CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins(
+                "https://stock-manager-vercel.vercel.app/",   
+                "http://localhost:5173"          
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
+
+
+
 // Services
 builder.Services.AddScoped<IProviderService, ProviderService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
@@ -46,6 +63,7 @@ var app = builder.Build();
 
 app.UseMiddleware<TraceMiddleware>();
 app.UseMiddleware<ExceptionMiddleware>();
+app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
