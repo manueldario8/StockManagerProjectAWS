@@ -37,7 +37,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend", policy =>
     {
         policy.WithOrigins(
-                "https://stock-manager-vercel.vercel.app/",   
+                "https://stock-manager-vercel.vercel.app",   
                 "http://localhost:5173"          
             )
             .AllowAnyHeader()
@@ -61,9 +61,10 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
+app.UseRouting();
+app.UseCors("AllowFrontend");
 app.UseMiddleware<TraceMiddleware>();
 app.UseMiddleware<ExceptionMiddleware>();
-app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
