@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\stockmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:stockmanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T01:17:48.522Z",
+              "WhenOpened": "2026-04-20T01:53:44.753Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +49,35 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-20T00:58:35.571Z",
+              "WhenOpened": "2026-04-20T01:53:35.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockManager.API.csproj",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\StockManager.API.csproj",
+              "RelativeDocumentMoniker": "StockManager.API.csproj",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\StockManager.API.csproj",
+              "RelativeToolTip": "StockManager.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-20T01:45:09.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "global.json",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\global.json",
+              "RelativeDocumentMoniker": "global.json",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\global.json",
+              "RelativeToolTip": "global.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T01:43:25.956Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "StockManager.API.Controllers.AuthControllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StockManager.API.Entities.DTOs.UserDTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StockManager.API.Entities.DTOs.UserDTOs.AuthResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "StockManager.API.Controllers.CatalogControllers.CategoryController",
     "Method": "CreateCategory",
     "RelativePath": "api/Category",
@@ -291,7 +317,7 @@
     "ContainingType": "StockManager.API.Controllers.CatalogControllers.ProviderController",
     "Method": "ToggleStatusActived",
     "RelativePath": "api/Provider/toggle/{id}",
-    "HttpMethod": "PUT",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -302,5 +328,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StockManager.API.Controllers.AuthControllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "api/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "StockManager.API.Entities.DTOs.UserDTOs.CreateUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StockManager.API.Entities.DTOs.UserDTOs.CreatedUserDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

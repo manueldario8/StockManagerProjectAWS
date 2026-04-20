@@ -10,6 +10,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
+using Microsoft.EntityFrameworkCore;
+
 namespace StockManager.API.Services.AuthServices
 {
     public class AuthService : IAuthService
