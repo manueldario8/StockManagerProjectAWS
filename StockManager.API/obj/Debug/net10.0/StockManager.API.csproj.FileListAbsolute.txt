@@ -320,7 +320,6 @@ C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\StockMan.D87C79CF.Up2Date
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\StockManager.API.dll
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\refint\StockManager.API.dll

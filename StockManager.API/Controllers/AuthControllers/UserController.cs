@@ -5,7 +5,7 @@ using StockManager.API.Interfaces.AuthInterfaces;
 namespace StockManager.API.Controllers.AuthControllers
 {
     [ApiController]
-    [Route("api/users")]
+    [Route("api/[controller]")]
     public class UsersController(IUserService userService) : ControllerBase
     {
         private readonly IUserService _userService = userService;
