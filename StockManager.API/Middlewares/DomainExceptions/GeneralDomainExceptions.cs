@@ -14,4 +14,18 @@
     {
         public ConflictException(string message) : base(message) { }
     }
+
+    public class ForbiddenException : Exception
+    {
+        public ForbiddenException(string message) : base(message) { }
+    }
+    public class AccessDeniedException : Exception
+    {
+        public AccessDeniedException(string message) : base(message) { }
+    }
+
+    public class ValidationException : Exception
+    {
+        public ValidationException(string message) : base(message) { }
+    }
 }

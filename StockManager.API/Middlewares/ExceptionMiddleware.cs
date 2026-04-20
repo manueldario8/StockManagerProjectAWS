@@ -28,6 +28,9 @@ namespace StockManager.API.Middlewares
                 NotFoundException => HttpStatusCode.NotFound,
                 BusinessException => HttpStatusCode.BadRequest,
                 ConflictException => HttpStatusCode.Conflict,
+                ValidationException => HttpStatusCode.BadRequest,       
+                AccessDeniedException => HttpStatusCode.Unauthorized,   
+                ForbiddenException => HttpStatusCode.Forbidden,
                 _ => HttpStatusCode.InternalServerError
             };
 

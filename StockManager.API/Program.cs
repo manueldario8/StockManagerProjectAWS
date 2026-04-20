@@ -1,11 +1,19 @@
 using CloudinaryDotNet;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using StockManager.API.Data;
+using StockManager.API.Entities.Models.Users;
+using StockManager.API.Interfaces.AuthInterfaces;
 using StockManager.API.Interfaces.CatalogInterfaces;
 using StockManager.API.Middlewares;
+using StockManager.API.Services.AuthServices;
 using StockManager.API.Services.CatalogServices;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+var jwt = builder.Configuration.GetSection("Jwt");
 
 // Add services to the container.
 // DbContext
@@ -14,6 +22,24 @@ builder.Services.AddDbContext<DataBaseContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
     )
 );
+
+//Auth
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwt["Issuer"],
+        ValidAudience = jwt["Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(jwt["Key"]!)
+        )
+    };
+});
 
 //Cloudinary setup
 var cloudinaryUrl = builder.Configuration["CloudinarySettings:Url"];
@@ -54,6 +80,11 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddSingleton(new Cloudinary(cloudinaryUrl));
+
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+builder.Services.AddScoped<PasswordHasher<User>>();
 
 
 builder.Services.AddControllers();

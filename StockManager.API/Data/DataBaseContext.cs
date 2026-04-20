@@ -1,5 +1,6 @@
-﻿using StockManager.API.Entities.Models.Catalog;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using StockManager.API.Entities.Models.Catalog;
+using StockManager.API.Entities.Models.Users;
 
 namespace StockManager.API.Data
 {
@@ -8,6 +9,10 @@ namespace StockManager.API.Data
         public DbSet<Provider> Providers { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+
+
+        public DbSet<User> Users { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -66,6 +71,31 @@ namespace StockManager.API.Data
 
             modelBuilder.Entity<Product>()
             .HasQueryFilter(c => c.StatusActived);
+
+            /*Users*/
+
+            modelBuilder.Entity<User>()
+                .HasKey(u => u.Id);
+
+            modelBuilder.Entity<User>()
+                .Property(u => u.Id)
+                .ValueGeneratedOnAdd();
+
+            modelBuilder.Entity<User>()
+                .HasIndex(p => p.Email)
+                .IsUnique();
+
+            modelBuilder.Entity<User>()
+                .Property(u => u.Email)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            modelBuilder.Entity<User>()
+                .Property(c => c.IsActive)
+                .HasDefaultValue(true);
+
+            modelBuilder.Entity<User>()
+                .HasQueryFilter(c => c.IsActive);
 
         }
     }
