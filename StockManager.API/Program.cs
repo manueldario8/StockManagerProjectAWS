@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using StockManager.API.Controllers.CatalogControllers;
 using StockManager.API.Data;
 using StockManager.API.Entities.Models.Users;
 using StockManager.API.Interfaces.AuthInterfaces;
@@ -88,7 +89,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddSingleton(new Cloudinary(cloudinaryUrl));
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddApplicationPart(typeof(UserController).Assembly); ;
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
