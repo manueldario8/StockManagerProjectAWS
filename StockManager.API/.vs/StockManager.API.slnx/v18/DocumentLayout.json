@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\services\\authservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:services\\authservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\controllers\\catalogcontrollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:controllers\\catalogcontrollers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\controllers\\catalogcontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:controllers\\catalogcontrollers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|c:\\users\\manue\\onedrive\\desktop\\stock manager\\stockmanager.api\\controllers\\catalogcontrollers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36738900-C94E-73D4-3198-52A4544B9E67}|StockManager.API.csproj|solutionrelative:controllers\\catalogcontrollers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +34,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Services\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthServices\\AuthService.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Services\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthServices\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:26:48.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Services\\AuthServices\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthServices\\UserService.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Services\\AuthServices\\UserService.cs",
+              "RelativeToolTip": "Services\\AuthServices\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:26:47.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Controllers\\CatalogControllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatalogControllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Controllers\\CatalogControllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\CatalogControllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:25:30.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Controllers\\CatalogControllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatalogControllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Controllers\\CatalogControllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\CatalogControllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:25:29.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Controllers\\CatalogControllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatalogControllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Controllers\\CatalogControllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CatalogControllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T01:25:27.13Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +109,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\manue\\OneDrive\\Desktop\\Stock Manager\\StockManager.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAtwFQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T01:04:48.494Z",
               "EditorCaption": ""

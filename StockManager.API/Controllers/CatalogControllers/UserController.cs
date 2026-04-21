@@ -6,7 +6,7 @@ namespace StockManager.API.Controllers.CatalogControllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class UsersController(IUserService userService) : ControllerBase
+    public class UserController(IUserService userService) : ControllerBase
     {
         private readonly IUserService _userService = userService;
 
