@@ -5,7 +5,7 @@ using StockManager.API.Interfaces.AuthInterfaces;
 namespace StockManager.API.Controllers.AuthControllers
 {
     [ApiController]
-    [Route("api/test-users")]
+    [Route("api/[controller]")]
     public class UsersController(IUserService userService) : ControllerBase
     {
         private readonly IUserService _userService = userService;
@@ -13,7 +13,7 @@ namespace StockManager.API.Controllers.AuthControllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new { message = "Conexión correcta" });
+            return Ok(new { message = "Conexión correcta con User" });
         }
 
         [HttpPost]

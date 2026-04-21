@@ -10,6 +10,11 @@ namespace StockManager.API.Controllers.AuthControllers
     {
         private readonly IAuthService _authService = authService;
 
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(new { message = "Conexión correcta con Login" });
+        }
 
         [HttpPost("login")]
         public async Task<ActionResult<AuthResponseDTO>> Login(LoginDTO dto)
