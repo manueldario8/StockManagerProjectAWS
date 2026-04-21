@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using StockManager.API.Entities.DTOs.CatalogDTOs;
 using StockManager.API.Interfaces.CatalogInterfaces;
 

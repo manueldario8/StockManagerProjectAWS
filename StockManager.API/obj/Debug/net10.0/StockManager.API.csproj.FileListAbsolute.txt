@@ -326,3 +326,4 @@ C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\StockManager.API.pdb
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\StockManager.API.genruntimeconfig.cache
 C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\ref\StockManager.API.dll
+C:\Users\manue\OneDrive\Desktop\Stock Manager\StockManager.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
