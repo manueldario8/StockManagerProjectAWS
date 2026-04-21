@@ -2,7 +2,7 @@
 using StockManager.API.Entities.DTOs.UserDTOs;
 using StockManager.API.Interfaces.AuthInterfaces;
 
-namespace StockManager.API.Controllers.AuthControllers
+namespace StockManager.API.Controllers.CatalogControllers
 {
     [ApiController]
     [Route("api/[controller]")]
