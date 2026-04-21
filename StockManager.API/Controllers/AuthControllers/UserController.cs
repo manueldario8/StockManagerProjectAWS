@@ -10,6 +10,12 @@ namespace StockManager.API.Controllers.AuthControllers
     {
         private readonly IUserService _userService = userService;
 
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(new { message = "Conexión correcta" });
+        }
+
         [HttpPost]
         public async Task<ActionResult<CreatedUserDTO>> Create(CreateUserDTO dto)
         {
